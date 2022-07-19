@@ -1,0 +1,163 @@
+h1{
+    background: rebeccapurple;
+border-style: groove;
+    border-bottom-color: brown;
+    margin: 50px 0;
+    text-transform: capitalize;
+    text-shadow: 0px 2px 4px rgb(237, 153, 153);
+    text-align: center;
+    font-family: 'Tangerine', serif;
+
+
+
+}
+p
+{
+    background-color: bisque;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+#ol1
+{
+    font-size: medium;
+    font-style: italic;
+    color:blue;
+}
+#pd{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(195, 46, 46);
+    background: none;
+}
+.logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .img_div{
+    display: flex;
+    justify-content: center;
+
+  }
+  .img_div img{
+    width:200px;
+    height:150px;
+  }
+  
+.heading_style
+{
+    padding: 30px 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cards{
+    width:100%;
+    height:auto;
+}
+
+.card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 11px 8px -5px rgb(0,0,0,0.1);
+    float: left;
+}
+.card:hover{
+    box-shadow: 0px 9px 6px -5px rgb(0,0,0,0.1);
+    transform: scale(1.05,1.05);
+}
+.card_img{
+    width: 80%;
+    height: 235px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_info{
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 10px 14px 14px 14px;
+}
+
+.card_catgory 
+{
+font-family: 'Times New Roman', Times, serif;
+text-transform:uppercase;
+font-size: 13px;
+letter-spacing: 2px;
+font-weight: 500;
+color: #868686;
+background-color: #fff;
+
+}
+
+.cadr_title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    text-transform: capitalize;
+}
+button{
+    padding: 5px 8px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+outline: none;
+border: 1px solid black;
+cursor: pointer;
+}
+@media(max-width:786px)
+{
+    .card {
+        float: none;
+        margin: 5%;
+        width: 90%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
